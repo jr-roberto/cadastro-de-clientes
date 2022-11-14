@@ -6,3 +6,5 @@
 > telaLogin()
 
 <p>Sistema de cadastro de clientes no utilizando o javascript</p>
+
+ajustado o nome usuario

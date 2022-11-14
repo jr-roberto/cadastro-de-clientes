@@ -2,10 +2,10 @@
 
 > Status do projeto: Em desenvolvimento
 
-><h1>functions</h1>
->   telaLogin
->       Descricao : Um formulario de login e senha gerado com java script
->       Sera escrito ta tag main do HTML 
+><h1>functions</h1><br>
+><p>telaLogin</p>
+><p>Descricao : Um formulario de login e senha gerado com javascript sera escrito ta tag main do HTML</p>
+>       
 
 
 

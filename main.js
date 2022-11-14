@@ -3,7 +3,7 @@ const main = document.querySelector("#main");
 function telaLogin(){
 
     var form = document.createElement("form");
-    form.textContent = 'Forumlario de login';
+    form.textContent = 'Formulario de login';
 
     var idInputs = ["form-inp-usuario","form-inp-senha","form-btn-login"]
 

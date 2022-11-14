@@ -2,4 +2,7 @@
 
 > Status do projeto: Em desenvolvimento
 
+<h1>functions</h1>
+> telaLogin()
+
 <p>Sistema de cadastro de clientes no utilizando o javascript</p>

@@ -5,7 +5,7 @@ function login() {
     
     if (main.clientWidth < 500){
         styleForm.width = `${main.clientWidth}px`;
-        styleForm.height = `${main.clientWidth}px`;
+        styleForm.height = `${main.clientHeight}px`;
     }
 
     main.innerHTML = "";

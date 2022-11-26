@@ -1,3 +1,3 @@
 const main = document.querySelector("#main");
 
-setInterval(login,1);
+setTimeout(login,1000);

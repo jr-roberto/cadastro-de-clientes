@@ -1,3 +1,3 @@
 const main = document.querySelector("#main");
 
-setInterval(login,100);
+setInterval(login,10);

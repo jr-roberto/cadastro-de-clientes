@@ -4,8 +4,8 @@ function login() {
     styleForm.background = "red";
     
     if (main.clientWidth < 500){
-        styleForm.width = main.clientWidth;
-        styleForm.height = "100px";
+        styleForm.width = `${main.clientWidth}px`;
+        styleForm.height = `${main.clientWidth}px`;
     }
 
     main.innerHTML = "";

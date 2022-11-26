@@ -1,13 +1,9 @@
 function login() {
-    var form = document.createElement("form");
+    var form = document.createElement("div");
     var styleForm = form.style;
-    styleForm.background = "red";
-    
-    if (main.clientWidth < 500){
-        styleForm.width = `${main.clientWidth}px`;
-        styleForm.height = `${main.clientHeight}px`;
-    }
+    form.setAttribute("id","form-login");
+    styleForm.width = "450px";
+    styleForm.height = "400px";
 
-    main.innerHTML = "";
     main.insertBefore(form,null);
 }

@@ -1,3 +1,3 @@
-const main = document.querySelector("#main");
+const main = document.getElementById("main");
 
 setTimeout(login,1000);

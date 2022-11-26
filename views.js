@@ -9,5 +9,5 @@ function login() {
     }
 
     main.innerHTML = "";
-    main.innerHTML = form;
+    main.insertBefore(form,null);
 }

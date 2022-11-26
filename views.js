@@ -1,11 +1,11 @@
 function login() {
     var form = document.createElement("form");
     var styleForm = form.style;
-    styleForm.background = "blue";
+    styleForm.background = "red";
     
     if (main.clientWidth < 500){
         styleForm.width = main.clientWidth;
-        styleForm.height = main.clientHeight;
+        styleForm.height = "100px";
     }
 
     main.innerHTML = "";

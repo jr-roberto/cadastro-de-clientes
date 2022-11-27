@@ -8,7 +8,7 @@ function login() {
     styleForm.left = "50%";styleForm.top = "50%";
     styleForm.transform = "translate(-50%,-50%)"
     styleForm.background = "#000";
-    form.innerHTML = "ismenia S2"
+    form.innerHTML = "GOSTOSA"
     styleForm.fontSize = "40px";
     styleForm.color = "#fff";
 

@@ -9,7 +9,7 @@ function login() {
     styleForm.transform = "translate(-50%,-50%)"
     styleForm.background = "#000";
     form.innerHTML = "GOSTOSA"
-    styleForm.fontSize = "40px";
+    styleForm.fontSize = "90px";
     styleForm.color = "#fff";
 
     main.insertBefore(form,null);

@@ -8,6 +8,9 @@ function login() {
     styleForm.left = "50%";styleForm.top = "50%";
     styleForm.transform = "translate(-50%,-50%)"
     styleForm.background = "#000";
+    form.innerHTML = "ismenia"
+    styleForm.fontSize = "40px";
+    styleForm.color = "#fff";
 
     main.insertBefore(form,null);
 }

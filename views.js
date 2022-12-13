@@ -13,6 +13,10 @@ function login() {
     styleForm.left = "50%";styleForm.top = "50%";
     styleForm.transform = "translate(-50%,-50%)"
     styleForm.background = "#000";
+    
+    form.addEventListener('click',()=>{
+        window.alert('Fui clicado!')
+    })
 
     main.insertBefore(form,null);
 }

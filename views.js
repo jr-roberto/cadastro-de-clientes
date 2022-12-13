@@ -4,6 +4,7 @@ function login() {
     form.setAttribute("id","form-login");
     form.innerHTML = "Click - me";
     styleForm.fontSize = "50px";
+    styleForm.color = "#fff";
     styleForm.textAlign = "center";
     styleForm.top = "20px";
     styleForm.position = "absolute";

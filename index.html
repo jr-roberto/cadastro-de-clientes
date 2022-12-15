@@ -24,10 +24,30 @@
             padding-top: 5vh;
         }
 
+        #js-code{
+            position: absolute;
+            background-color: beige;
+            font-size: 20vw;
+            left: 10vw; top: 10vh;
+        }
+
     </style>
 </head>
 <body>
     <div id="main"></div>
+    <div id="js-code">
+        const main = document.getElementById('main');
+        var num = [0,1,2,3,4,5,6,7,8,9]
+        
+        var sorteio = ()=>{
+        
+            main.innerHTML = Math.floor(Math.random() * num.length);
+        
+            setTimeout(sorteio,5000)
+        }
+        
+        setTimeout(sorteio, 100);
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>

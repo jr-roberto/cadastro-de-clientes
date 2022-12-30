@@ -1,5 +1,1 @@
-id;nome_usuario;senha;permissao
-1;roberto;123;admin
-2;roberto;123;admin
-3;roberto;123;admin
-4;roberto;123;admin
+id;nome_usuario;senha;situacao

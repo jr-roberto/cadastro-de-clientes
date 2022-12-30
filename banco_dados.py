@@ -3,7 +3,7 @@ import numpy as np
 
 # NOVA TABELA NO SISTEMA
 def nova_tabela():
-    nome_campo = ['id','nome_usuario','senha','permissao']
+    nome_campo = ['id','nome_usuario','senha','situacao']
     
     tabela = {}
     for campo in nome_campo:
@@ -26,7 +26,7 @@ def atualiza_tabela(my_table):
     df.to_csv('db/tbl_usuario.csv',sep=';',index=False,encoding='ISO-8859-1')
 
 # CADASTRA UM NOVO USUARIO NA TABELA - [tbl_usuario.csv]
-def novo_usuario(nome_usuario,senha,per):
+def novo_usuario(nome_usuario,senha,st):
     table = carregar_tabela()
 
     thead = table['thead']
@@ -34,7 +34,7 @@ def novo_usuario(nome_usuario,senha,per):
 
     id = len(tbody) + 1
 
-    new_row = [id,nome_usuario,senha,per]
+    new_row = [id,nome_usuario,senha,st]
 
     tbody.append(new_row)
 
@@ -63,4 +63,5 @@ def consulta(id):
 
 # DEV
 if __name__ == '__main__':
+    nova_tabela()
     print(consulta(0))

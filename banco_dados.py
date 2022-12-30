@@ -60,6 +60,7 @@ def consulta(id):
 
 # EXCLUIR USUARIO
 
+
 # DEV
 if __name__ == '__main__':
     print(consulta(0))

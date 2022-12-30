@@ -13,7 +13,7 @@ pandas<br>
 
 # Principais funcoes ate o momento
 
-back-end:
+back-end:<br>
 nova_tabela<br>
 carregar_tabela<br>
 atualiza_tabela<br>

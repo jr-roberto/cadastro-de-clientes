@@ -1,1 +1,3 @@
 dev.py
+__pycache__
+db/tbl_usuarios.csv

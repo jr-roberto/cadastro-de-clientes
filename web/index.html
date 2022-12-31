@@ -4,14 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        .centralizado{
+            position: absolute;
+            left: 50%;top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #form-cadastrar{
+            width: 50vw;
+            max-width: 600px;min-width: 400px;
+            height: 50vh;
+            min-height: 400px;
+            box-shadow: 0 0 5px blue;
+            border-radius: 5px;
+            overflow: hidden;
+            
+        }
+
+        #form-cadastrar > .form{
+            width: 50%;
+        }
+
+        #form-cadastrar > .form > div{
+            margin: 15px 0;
+        }
+
+        #form-cadastrar > .form > div > input,label{
+            width: 100%;
+            font-size: 16px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        #form-cadastrar > .form > div > input[type="button"]{
+            background-color: green;
+            border-radius: 10px;
+            color: aliceblue;
+            cursor: pointer;
+        }
+        #form-cadastrar > .form > div > input[type="button"]:active{
+            scale: 0.97;
+        }
+
+        #form-cadastrar > h1{
+            background-color: blue;
+            width: 100%;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        
+
+    </style>
     <title>.::gerenciamento de usuarios::.</title>
 </head>
 <body>
 
     <div id="main"></div>
+
+    <div id="form-cadastrar" class="centralizado">
+        <h1>Novo usuario</h1>
+
+        <div class="form centralizado">
+
+            <div>
+                <label for="nome_usuario">Nome usuario</label>
+                <input type="text" id="nome_usuario">
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="text" id="senha">
+            </div>
+
+            <div>
+                <input type="button" id="btn_cadastrar" value="Cadastrar" onclick="novo_usuario()">
+            </div>
+
+<!--             <label for="senha">Senha</label>
+            <input type="text" id="senha"> -->
+
+        </div>
+
+
+        
+ <!--        <input type="text" id="nome_usuario">
+        <input type="text" id="senha">
+        
+        <input type="button" value="Cadastrar"> -->
+    </div>
     
     <script type="text/javascript" src="./eel.js"></script>
     <script src="./main.js"></script>
-    
+
 </body>
 </html>
